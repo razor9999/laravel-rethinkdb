@@ -1,9 +1,9 @@
 {
-    "name": "duxet/laravel-rethinkdb",
+    "name": "vunguyen/laravel-rethinkdb",
     "description": "RethinkDB adapter for Laravel",
     "authors": [
         {
-            "name": "duxet"
+            "name": "vunguyen"
         }
     ],
     "license": "MIT",

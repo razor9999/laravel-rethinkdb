@@ -149,8 +149,13 @@ class FilterBuilder
 
     protected function getField($name)
     {
+        $names = explode('.', $name);
         $document = $this->document;
 
-        return $document($name);
+        foreach ($names as $doc){
+            $document = $document($doc);
+        }
+
+        return $document;
     }
 }
